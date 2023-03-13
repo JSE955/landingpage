@@ -109,6 +109,34 @@ button {
     padding-top: 50px;
 }
 
+.four {
+    padding-top: 50px;
+}
+
+.callToAction {
+    padding: 30px 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.callToAction div {
+    color: white;
+}
+
+.callToAction button {
+    border: 1px solid white;
+}
+
+.callToAction h3 {
+    margin-bottom: 4px;
+}
+
+.callToAction p {
+    margin-top: 0;
+}
+
 ul {
     margin-bottom: 0;
     list-style-type: none;
@@ -119,9 +147,11 @@ ul {
     font-style: italic;
     color: #1F2937;
     text-align: center;
+    margin-bottom: 0;
 }
 
 figcaption {
+    margin-top: 0;
     text-align: right;
     font-size: 24px;
     font-weight: bold;
@@ -130,4 +160,11 @@ figcaption {
 
 body, header, footer {
     margin: 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
